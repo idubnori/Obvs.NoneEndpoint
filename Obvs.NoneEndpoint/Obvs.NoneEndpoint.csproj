@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net451</TargetFrameworks>
+    <Company></Company>
+    <Authors>idubnori</Authors>
+    <Copyright>Copyright (c) idubnori 2018</Copyright>
+    <Version>0.9.0</Version>
+    <Description>None Endpoint extension for Obvs. This provides .WithNoneEndpoints() for using IServiceBus as In-Memory ServiceBus.</Description>
+    <PackageReleaseNotes>https://github.com/idubnori/Obvs.NoneEndpoint/releases</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/idubnori/Obvs.NoneEndpoint/</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/idubnori/Obvs.NoneEndpoint/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>obvs messaging microservice bus messagebus rx reactive servicebus none endpoint</PackageTags>
+    <RepositoryUrl>https://github.com/idubnori/Obvs.NoneEndpoint/</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Obvs" Version="4.1.0.13" />
+  </ItemGroup>
+</Project>
