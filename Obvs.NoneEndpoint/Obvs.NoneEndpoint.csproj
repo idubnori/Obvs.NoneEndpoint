@@ -14,7 +14,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/idubnori/Obvs.NoneEndpoint/</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/idubnori/Obvs.NoneEndpoint/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageTags>obvs messaging microservice bus messagebus rx reactive servicebus none endpoint</PackageTags>
+    <PackageTags>obvs messaging microservice bus messagebus rx reactive servicebus none endpoint WithNoneEndpoints</PackageTags>
     <RepositoryUrl>https://github.com/idubnori/Obvs.NoneEndpoint/</RepositoryUrl>
   </PropertyGroup>
 
