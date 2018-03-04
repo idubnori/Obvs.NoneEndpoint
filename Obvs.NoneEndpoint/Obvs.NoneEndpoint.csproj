@@ -5,7 +5,7 @@
     <Company></Company>
     <Authors>idubnori</Authors>
     <Copyright>Copyright (c) idubnori 2018</Copyright>
-    <Version>0.9.0</Version>
+    <Version>0.9.0.0</Version>
     <Description>None Endpoint extension for Obvs. This provides .WithNoneEndpoints() for using IServiceBus as In-Memory ServiceBus.</Description>
     <PackageReleaseNotes>https://github.com/idubnori/Obvs.NoneEndpoint/releases</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
