@@ -1,5 +1,7 @@
 ﻿Obvs.NoneEndpoint
 ===
+[![GitHub license](https://img.shields.io/github/license/idubnori/Obvs.NoneEndpoint.svg)](https://github.com/idubnori/Obvs.NoneEndpoint/blob/master/LICENSE)
+[![Build status](https://ci.appveyor.com/api/projects/status/jkiyk1s624u59x75/branch/master?svg=true)](https://ci.appveyor.com/project/idubnori/obvs-noneendpoint/branch/master)
 
 None Endpoint extension for [Obvs](https://github.com/christopherread/Obvs).<br> It provides **`.WithNoneEndpoints()`** for using `IServiceBus` as In-Memory ServiceBus.
 
