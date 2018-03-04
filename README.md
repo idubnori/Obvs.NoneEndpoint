@@ -5,10 +5,17 @@
 
 None Endpoint extension for [Obvs](https://github.com/christopherread/Obvs).<br> It provides **`.WithNoneEndpoints()`** for using `IServiceBus` as In-Memory ServiceBus.
 
+### Install via NuGet
+Package Manager :<br>
+ `PM> Install-Package Obvs.NoneEndpoint`
+
+.NET CLI :<br>
+ `dotnet add package Obvs.NoneEndpoint`
+
 ### Example
 
 Create `IServiceBus` as in-memory service bus.
-```csharp
+```
 IServiceBus serviceBus = ServiceBus.Configure()
         .WithNoneEndpoints()
         .PublishLocally().AnyMessagesWithNoEndpointClients()
